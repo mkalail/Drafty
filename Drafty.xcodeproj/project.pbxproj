@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9329347278F4F8300236870 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9329346278F4F8300236870 /* Session.swift */; };
 		C9ACC1F327655AD800976B81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ACC1F227655AD800976B81 /* AppDelegate.swift */; };
 		C9ACC1F527655AD800976B81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ACC1F427655AD800976B81 /* SceneDelegate.swift */; };
 		C9ACC1F727655AD800976B81 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ACC1F627655AD800976B81 /* JournalViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C9329346278F4F8300236870 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		C9ACC1EF27655AD800976B81 /* Drafty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drafty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9ACC1F227655AD800976B81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9ACC1F427655AD800976B81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C9329349278F4F8F00236870 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C9329346278F4F8300236870 /* Session.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		C9395DC52788965A00D92244 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +86,7 @@
 			children = (
 				C9ACC1F227655AD800976B81 /* AppDelegate.swift */,
 				C9ACC1F427655AD800976B81 /* SceneDelegate.swift */,
+				C9329349278F4F8F00236870 /* Models */,
 				C9395DC52788965A00D92244 /* Controllers */,
 				C9395DC62788966F00D92244 /* Views */,
 				C9ACC1FE27655ADA00976B81 /* Assets.xcassets */,
@@ -156,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9329347278F4F8300236870 /* Session.swift in Sources */,
 				C9ACC1F727655AD800976B81 /* JournalViewController.swift in Sources */,
 				C9ACC1FD27655AD800976B81 /* Drafty.xcdatamodeld in Sources */,
 				C9ACC1F327655AD800976B81 /* AppDelegate.swift in Sources */,

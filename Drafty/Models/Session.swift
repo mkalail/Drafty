@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct Session {
+    let body: String
+    //let date: String
+}
